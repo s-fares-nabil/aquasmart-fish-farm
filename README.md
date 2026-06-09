@@ -150,7 +150,12 @@ smart-fish-farm/
 │       │   └── data_logger.cpp    # CSV logging implementation
 │       ├── smart-fish-farm.ino    # Main firmware entry point
 │       └── platformio.ini         # PlatformIO configuration
-├── images/                        # Extracted poster images
+├── images/                        # Poster images organized by type
+│   ├── materials/                 #   Component & hardware photos
+│   ├── graphs/                    #   Data charts & visualizations
+│   ├── schematics/                #   System & block diagrams
+│   ├── tables/                    #   Data tables from testing
+│   └── decorative/                #   Background fills & icons
 ├── poster/                        # Project poster (PPTX)
 ├── circuit/                       # Circuit diagrams
 └── README.md
