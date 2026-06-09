@@ -7,18 +7,13 @@
 A low-cost, IoT-based water quality monitoring system for sustainable aquaculture. Built for Egypt's aquaculture sector to address the grand challenge of water resource management.
 
 <p align="center">
-  <img src="images/schematics/system_block_diagram_fig1.png" alt="System Block Diagram" width="80%">
-  <br><em>System Architecture Overview</em>
+  <img src="images/materials/fish_tank_aquarium.jpeg" alt="Fish Tank" width="70%">
+  <br><em>Test aquarium setup for the Smart Fish Farm system</em>
 </p>
 
 ## Overview
 
 AquaSmart monitors key water parameters in real-time using an ESP32 microcontroller and a suite of low-cost sensors. Data is visualized on a Blynk dashboard and logged to an SD card for analysis. An alert system notifies farmers of unsafe conditions.
-
-<p align="center">
-  <img src="images/materials/fish_tank_aquarium.jpeg" alt="Fish Tank" width="60%">
-  <br><em>Test aquarium setup for the Smart Fish Farm system</em>
-</p>
 
 <p align="center">
   <img src="images/materials/circuit_prototype_fig2.jpeg" alt="Circuit Prototype" width="45%">
