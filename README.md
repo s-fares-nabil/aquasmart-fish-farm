@@ -6,9 +6,21 @@
 
 A low-cost, IoT-based water quality monitoring system for sustainable aquaculture. Built for Egypt's aquaculture sector to address the grand challenge of water resource management.
 
+<p align="center">
+  <img src="images/schematics/system_block_diagram_fig1.png" alt="System Block Diagram" width="80%">
+  <br><em>System Architecture Overview</em>
+</p>
+
 ## Overview
 
 AquaSmart monitors key water parameters in real-time using an ESP32 microcontroller and a suite of low-cost sensors. Data is visualized on a Blynk dashboard and logged to an SD card for analysis. An alert system notifies farmers of unsafe conditions.
+
+<p align="center">
+  <img src="images/materials/circuit_prototype_fig2.jpeg" alt="Circuit Prototype" width="45%">
+  &nbsp;&nbsp;
+  <img src="images/materials/aquarium_with_sensors_fig3.jpeg" alt="Aquarium Setup" width="45%">
+  <br><em>Prototype breadboard (left) and aquarium with sensors installed (right)</em>
+</p>
 
 ## Features
 
@@ -24,10 +36,19 @@ AquaSmart monitors key water parameters in real-time using an ESP32 microcontrol
 | **Alert System** | Buzzer + Blynk notifications for out-of-range parameters |
 | **Auto Pump Control** | Relay-driven pump activation on low level/low DO |
 
-## Hardware Requirements
+## Hardware Components
+
+<p align="center">
+  <img src="images/materials/esp32_microcontroller.png" alt="ESP32" width="120">
+  <img src="images/materials/ph_sensor.png" alt="pH Sensor" width="120">
+  <img src="images/materials/temperature_sensor_ds18b20.png" alt="DS18B20" width="120">
+  <img src="images/materials/water_level_sensor.png" alt="Water Level" width="120">
+  <img src="images/materials/flow_sensor_yf_s201.jpeg" alt="Flow Sensor" width="120">
+  <img src="images/materials/breadboard.png" alt="Breadboard" width="120">
+  <br><em>Main components: ESP32, pH sensor, DS18B20, water level sensor, YF-S201 flow sensor, breadboard</em>
+</p>
 
 | Component | Quantity | Estimated Cost (EGP) |
-|-----------|----------|---------------------|
 | ESP32 Dev Board | 1 | ~350 |
 | pH Sensor (pH-4502C) | 1 | ~450 |
 | DS18B20 Temperature Sensor | 1 | ~50 |
@@ -133,6 +154,19 @@ Tested over a 7-day period in a 60L aquarium:
 | Temperature | 24.5 – 28.3 °C | 22 – 32 °C |
 | Dissolved Oxygen | 4.8 – 6.2 mg/L | > 4.0 mg/L |
 | Water Level | 15 – 28 cm | 5 – 30 cm |
+
+<p align="center">
+  <img src="images/graphs/ph_variation_graph1.png" alt="pH over 7 days" width="30%">
+  <img src="images/graphs/temperature_graph2.jpeg" alt="Temperature over time" width="30%">
+  <img src="images/graphs/flow_rate_graph3.jpeg" alt="Flow rate over time" width="30%">
+  <br><em>pH, temperature, and flow rate measurements during testing</em>
+</p>
+
+<p align="center">
+  <img src="images/graphs/do_vs_temperature_graph4.jpeg" alt="DO vs Temperature" width="45%">
+  <img src="images/graphs/do_vs_flow_rate_graph5.jpeg" alt="DO vs Flow Rate" width="45%">
+  <br><em>Dissolved Oxygen correlation with temperature and flow rate</em>
+</p>
 
 ## Project Structure
 
